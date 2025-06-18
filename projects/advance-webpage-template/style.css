@@ -240,6 +240,23 @@ nav {
   width: 100%;
 }
 
+.about-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.about-area-links {
+  font-weight: 570;
+  font-size: 16px;
+  width: 260px;
+}
+
+.about-area-links:hover {
+  background: var(--secondary-color);
+}
+
 /* -------- Main Section Style -------- */
 .page-content {
   margin-top: 70px;
@@ -312,34 +329,8 @@ nav {
   text-align: center;
 }
 
-.about-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 35px;
-  margin-top: 15px;
-}
-
-.home-link-item {
-  align-items: center;
-  gap: 10px;
-  padding: 12px 20px;
-  background: var(--primary-color);
-  color: var(--white);
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 18px;
-  width: 180px;
-  transition: background 0.3s ease;
-  text-align: center;
-}
-
-.home-link-item:hover {
-  background: var(--secondary-color);
-}
-
-.portal-heading {
-  margin: 70px 0 30px;
+.about-heading {
+  margin: 30px 0 30px;
 }
 
 /* -------- Footer -------- */
