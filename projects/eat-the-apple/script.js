@@ -1,5 +1,3 @@
-//-----------Calling objects-----------
-
 //-----------Panel Objects------------
 const mainMenu = document.getElementById("mainMenu");
 const difficultyMenu = document.getElementById("difficultyMenu");
