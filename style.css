@@ -370,6 +370,10 @@ nav {
     width: 90%;
   }
 
+  .nav-links {
+    margin-left: 0px;
+  }
+
 }
 
 /* ------- Mobile Device------- */
@@ -397,6 +401,7 @@ nav {
     display: none; /* hidden by default */
     width: auto;
     text-align: center;
+    margin-left: 0px;
   }
 
   .nav-links.show {
