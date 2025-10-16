@@ -374,6 +374,7 @@ nav {
 /* ------- Mobile Device------- */
 @media (max-width: 768px) {
   .nav-links-menu-toggle {
+    margin-left: 80px;
     display: block;
   }
   
@@ -404,6 +405,16 @@ nav {
   .appearance-area {
     display: flex; 
     align-items: center;
-    gap: 10px;
   }
+  
+  .projects-grid{
+    grid-template-columns: 1fr; 
+    justify-items: center; 
+    justify-content: center;
+  }
+  
+   .box {
+    width: 90%;
+  }
+  
 }
