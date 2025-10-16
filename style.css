@@ -78,6 +78,10 @@ nav {
   user-select: none;
 }
 
+.title-page-area a{
+  opacity : 1;
+}
+
 .page-logo {
   width: 46px;
   height: 46px;
