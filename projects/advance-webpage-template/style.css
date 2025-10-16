@@ -369,7 +369,13 @@ nav {
 
 /* ------- Mobile Device------- */
 @media (max-width: 768px) {
+
+  .navigation-bar{
+    padding : 0 10px;
+  }
+  
   .nav-links-menu-toggle {
+    margin-left: 80px;
     display: block;
   }
   
@@ -402,4 +408,19 @@ nav {
     align-items: center;
     gap: 10px;
   }
+
+  .color-theme .color-icon {
+    width: 60px;
+  }
+
+  .projects-grid{
+    grid-template-columns: 1fr; 
+    justify-items: center; 
+    justify-content: center;
+  }
+  
+   .box {
+    width: 90%;
+  }
+  
 }
