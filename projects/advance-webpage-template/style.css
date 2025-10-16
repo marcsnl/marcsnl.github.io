@@ -111,6 +111,10 @@ nav {
   cursor: pointer;
 }
 
+#titleLink{
+  opacity: 1;
+}
+
 /* -------- Appearance Area Style -------- */
 
 .appearance-area{
@@ -370,13 +374,13 @@ nav {
 /* ------- Mobile Device------- */
 @media (max-width: 768px) {
 
-  .navigation-bar{
+  .navigation-bar {
     padding : 0 10px;
   }
   
   .nav-links-menu-toggle {
-    margin-left: 80px;
     display: block;
+    margin-left: 80px;
   }
   
   .nav-links {
@@ -406,7 +410,7 @@ nav {
   .appearance-area {
     display: flex; 
     align-items: center;
-    gap: 10px;
+    gap: 3px;
   }
 
   .color-theme .color-icon {
