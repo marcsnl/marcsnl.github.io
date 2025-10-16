@@ -406,6 +406,10 @@ nav {
     display: flex; 
     align-items: center;
   }
+
+  .color-theme .color-icon {
+    width: 60px;
+  }
   
   .projects-grid{
     grid-template-columns: 1fr; 
