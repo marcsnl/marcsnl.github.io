@@ -344,22 +344,20 @@ nav {
 /* -------- About Area Style -------- */
 #about {
   text-align: center;
-  item-align: center;
+  align-items: center;
 }
 
-#about p{
+.about-header{
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  item-align: center;
+  align-items: center;
 }
 
 .about-heading {
   margin: 30px 0 30px;
 }
 
-.about-this-page-text{
-  text-align: center;
-  item-align: center;
-}
 
 /* -------- Footer -------- */
 .footer {
