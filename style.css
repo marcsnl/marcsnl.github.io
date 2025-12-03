@@ -451,5 +451,8 @@ nav {
    .box {
     width: 90%;
   }
-  
+
+  .about-links-portal{
+    flex-direction: column;
+  }
 }
