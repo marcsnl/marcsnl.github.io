@@ -344,6 +344,12 @@ nav {
 /* -------- About Area Style -------- */
 #about {
   text-align: center;
+  item-align: center;
+}
+
+#about p{
+  text-align: center;
+  item-align: center;
 }
 
 .about-heading {
