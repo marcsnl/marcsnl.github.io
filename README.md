@@ -1,3 +1,3 @@
 # marcsnl.github.io
 
-Using this as main profile or repo.
+Main github repo and portal
