@@ -247,6 +247,13 @@ nav {
 
 .about-links {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.about-links-portal{
+  display: flex;
   flex-direction: row;
   align-items: center;
   gap: 25px;
