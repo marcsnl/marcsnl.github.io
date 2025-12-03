@@ -269,6 +269,10 @@ nav {
   background: var(--secondary-color);
 }
 
+.color-theme-header{
+  margin-top: 30px;
+}
+
 
 /* -------- Main Section Style -------- */
 .page-content {
